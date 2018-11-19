@@ -189,7 +189,8 @@
 
   #linkedIn,
   #github,
-  #email {
+  #email,
+  #phone {
     text-decoration: none;
     padding: 10px;
   }
