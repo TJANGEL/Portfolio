@@ -91,22 +91,6 @@
       font-weight: 500;
   }
   
-  /* footer */
-  
-  footer {
-    padding: 10px;
-    padding-bottom: 10px;
-    clear: both;
-    font-size: 15px;
-    color: #4aaaa5;
-    text-align: center;
-    background: #666;
-    border-top: 8px solid #4aaaa5;
-    border-bottom: 8px solid #4aaaa5;
-    height: 240px;
-    font-family: "Graduate";
-  }
-  
   /* main */
   
   #main-container {
@@ -183,21 +167,27 @@
   
   /* contact section */
 
-  .container p {
-      padding-bottom: -5px;
+  footer {
+    padding: 10px;
+    padding-bottom: 10px;
+    clear: both;
+    font-size: 15px;
+    color: #4aaaa5;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    border-bottom: 8px solid #4aaaa5;
+    height: 220px;
+    font-family: "Graduate";
   }
 
   #linkedIn,
   #github,
   #email,
-  #phone {
-    text-decoration: none;
-    padding: 10px;
-  }
-
+  #phone,
   #resume {
     text-decoration: none;
-    padding-bottom: 30px;
+    padding: 10px;
   }
   
   /* Responsiveness */
