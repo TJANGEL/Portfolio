@@ -169,6 +169,7 @@
   .code:hover {
       background: transparent;
       color: black;
+      font-weight: bold;
   }
 
   .auth-image {
