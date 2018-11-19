@@ -85,6 +85,10 @@
   nav a:first-child {
     border-left: 0 none;
   }
+
+  nav a:hover {
+      color: white;
+  }
   
   /* footer */
   
@@ -120,7 +124,7 @@
     border-radius: 5px;
   }
   
-  /* portfolio page */
+  /* portfolio section */
   
   .work {
     position: relative;
@@ -140,7 +144,8 @@
     opacity: 0.8;
   }
   
-  .demo {
+  .demo,
+  .code {
     position: absolute;
     bottom: 20px;
     width: 50%;
@@ -156,19 +161,14 @@
   }
 
   .code {
-    position: absolute;
-    bottom: 20px;
-    width: 50%;
-    padding: 15px;
-    margin-bottom: 0;
-    margin-left: 220px;
-    font-weight: 300;
-    line-height: 30px;
-    color: #fff;
-    text-align: center;
-    background: #4aaaa5;
-    border-bottom: 0;
-    text-decoration: none;
+      width: 50%;
+      margin-left: 220px;
+  }
+
+  .demo:hover,
+  .code:hover {
+      background: transparent;
+      color: black;
   }
 
   .auth-image {
@@ -179,51 +179,18 @@
     margin-right: 25px;
   }
   
-  /* contact page */
-  
-  #contact-form ul {
-    margin-bottom: 20px;
+  /* contact section */
+
+  .container p {
+      padding-bottom: -5px;
   }
-  
-  #contact-form li {
-    margin-bottom: 10px;
-  }
-  
-  label,
-  input[type=text],
-  input[type=email],
-  textarea {
-    display: block;
-    width: 100%;
-  }
-  
-  input[type=text],
-  input[type=email],
-  textarea {
-    height: 35px;
-    padding: 0 10px;
-    font-size: 14px;
-    border: 1px solid #ddd;
-  }
-  
-  textarea {
-    height: 200px;
-  }
-  
-  input[type=submit] {
-    padding: 10px 30px;
-    font-size: 18px;
-    color: #fff;
-    cursor: pointer;
-    background: #4aaaa5;
-    border: 0 none;
-  }
-  
+
   #linkedIn,
   #github,
   #resume,
   #email {
     text-decoration: none;
+    padding: 10px;
   }
   
   /* Responsiveness */
