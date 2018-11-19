@@ -88,6 +88,7 @@
 
   nav a:hover {
       color: white;
+      font-weight: 500;
   }
   
   /* footer */
@@ -188,10 +189,14 @@
 
   #linkedIn,
   #github,
-  #resume,
   #email {
     text-decoration: none;
     padding: 10px;
+  }
+
+  #resume {
+    text-decoration: none;
+    padding-bottom: 30px;
   }
   
   /* Responsiveness */
