@@ -140,10 +140,10 @@
     opacity: 0.8;
   }
   
-  .work a {
+  .demo {
     position: absolute;
     bottom: 20px;
-    width: 100%;
+    width: 50%;
     padding: 15px;
     margin-bottom: 0;
     font-weight: 300;
@@ -154,7 +154,23 @@
     border-bottom: 0;
     text-decoration: none;
   }
-  
+
+  .code {
+    position: absolute;
+    bottom: 20px;
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 0;
+    margin-left: 220px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+    text-decoration: none;
+  }
+
   .auth-image {
     float: left;
     width: 200px;
