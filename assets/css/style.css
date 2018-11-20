@@ -46,11 +46,12 @@
     z-index: 99;
     width: 100%;
     margin-left: -8px;
+    margin-top: -10px;
     overflow: auto;
     color: #fff;
     background: #666;
     border-bottom: 5px solid #4aaaa5;
-    border-top: 5px solid #4aaaa5;
+    /* border-top: 5px solid #4aaaa5; */
   }
   
   #logo {
@@ -70,6 +71,7 @@
   nav {
     float: right;
     margin-top: 28px;
+    margin-bottom: 25px;
   }
   
   nav a {
@@ -90,6 +92,10 @@
   nav a:hover {
       color: white;
       font-weight: 500;
+  }
+
+  #intro {
+      padding-top: 100px;
   }
 
   /* main */
