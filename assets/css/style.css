@@ -93,6 +93,10 @@
     font-weight: 500;
   }
 
+  nav a:active {
+      border-bottom: 1px solid #4aaaa5;
+  }
+
   #links {
     float: right;
     margin-top: 28px;
@@ -211,6 +215,10 @@
 
   #resume {
     font-size: 24px;
+  }
+
+  #email {
+      padding-left: 50px;
   }
   
   /* Responsiveness */
