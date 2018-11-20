@@ -49,7 +49,7 @@
     margin-top: -10px;
     overflow: auto;
     color: #fff;
-    background: #666;
+    background: rgba(102, 102, 102, 0.836);
     border-bottom: 5px solid #4aaaa5;
   }
   
@@ -186,8 +186,8 @@
     font-size: 15px;
     color: #4aaaa5;
     text-align: center;
-    background: #666;
-    border-top: 8px solid #4aaaa5;
+    background: rgba(102, 102, 102, 0.836);
+    border-top: 5px solid #4aaaa5;
     display: block;
     overflow: auto;
     font-family: "Graduate";
