@@ -89,8 +89,8 @@
   }
 
   nav a:hover {
-      color: white;
-      font-weight: 500;
+    color: white;
+    font-weight: 500;
   }
 
   #links {
@@ -207,6 +207,10 @@
 
   #phone {
       margin-bottom: 10px;
+  }
+
+  #resume {
+      font-size: 24px;
   }
   
   /* Responsiveness */
