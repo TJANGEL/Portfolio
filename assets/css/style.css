@@ -93,10 +93,6 @@
     font-weight: 500;
   }
 
-  nav a:active {
-      border-bottom: 1px solid #4aaaa5;
-  }
-
   #links {
     float: right;
     margin-top: 28px;
@@ -177,7 +173,7 @@
 
   .auth-image {
     float: left;
-    width: 200px;
+    width: 250px;
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
