@@ -92,6 +92,12 @@
       font-weight: 500;
   }
   
+  /* start section */
+  #intro {
+    padding-top: 200px;
+
+  }
+
   /* main */
   
   #main-container {
