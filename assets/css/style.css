@@ -29,8 +29,7 @@
   }
   
   #contact,
-  #aboutMe,
-  #portfolio {
+  #aboutMe {
     font-size: 30px;
     color: #4aaaa5;
     font-family: "Syncopate";
@@ -135,6 +134,17 @@
   }
 
   /* portfolio section */
+
+  #portfolio {
+    padding-top: 200px;
+    font-family: "Syncopate";
+    padding-bottom: 20px;
+    color:rgb(230, 227, 227);
+    font-size: 70px;
+    font-weight: bolder;
+    border-bottom: 8px solid #4aaaa5;
+    padding-bottom: 20px;
+  }
   
   .work {
     position: relative;
@@ -149,9 +159,14 @@
   }
   
   .work img {
-    width: 100%;
+    width: 80%;
     border: 0 none;
-    opacity: 0.8;
+    opacity: 0.9;
+    margin-left: 20px;
+  }
+
+  .col-md-6 {
+    margin-left: 50px;
   }
   
   .demo,
@@ -170,9 +185,14 @@
     text-decoration: none;
   }
 
+  .demo {
+    width: 35%;
+    margin-left: -705px;
+  }
+
   .code {
-    width: 50%;
-    margin-left: 220px;
+    width: 40%;
+    margin-left: -250px;
   }
 
   .demo:hover,
