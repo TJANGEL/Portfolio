@@ -101,15 +101,16 @@
   }
 
   #intro h1 {
-    color: beige;
+    color:rgb(230, 227, 227);
     font-size: 70px;
     font-family: "Syncopate";
+    font-weight: bolder;
     border-bottom: 8px solid #4aaaa5;
     padding-bottom: 20px;
   }
 
   #intro h2 {
-    color: beige;
+    color:rgb(230, 227, 227);
     font-size: 40px;
     margin-left: 25px;
     padding-top: 20px;
