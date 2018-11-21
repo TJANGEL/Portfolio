@@ -28,16 +28,6 @@
     margin-bottom: 0;
   }
   
-  #contact,
-  #aboutMe {
-    font-size: 30px;
-    color: #4aaaa5;
-    font-family: "Syncopate";
-    padding-bottom: 20px;
-    line-height: 50px;
-    border-bottom: 3px solid #4aaaa5;
-  }
-  
   /* header */
   
   #masthead {
@@ -112,12 +102,27 @@
     color:rgb(230, 227, 227);
     font-size: 40px;
     margin-left: 25px;
-    padding-top: 20px;
+    padding-top: 200px;
   }
 
-  /* main */
+  /* about me */
   
-  #main-container {
+  #aboutMe {
+    padding-top: 200px;
+    font-family: "Syncopate";
+    padding-bottom: 20px;
+    color:rgb(230, 227, 227);
+    font-size: 50px;
+    font-weight: bolder;
+    border-bottom: 8px solid #4aaaa5;
+    padding-bottom: 20px;
+  }
+
+  .col-md-8 p {
+    color: white;
+  }
+
+  /* #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
   }
@@ -131,7 +136,7 @@
     background: rgb(230, 227, 227);
     border: 5px solid #4aaaa5;
     border-radius: 5px;
-  }
+  } */
 
   /* portfolio section */
 
@@ -140,7 +145,7 @@
     font-family: "Syncopate";
     padding-bottom: 20px;
     color:rgb(230, 227, 227);
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bolder;
     border-bottom: 8px solid #4aaaa5;
     padding-bottom: 20px;
