@@ -95,7 +95,23 @@
   /* intro section */
 
   #intro {
-    padding-top: 140px;
+    padding-top: 200px;
+    margin-bottom: 500px;
+  }
+
+  #intro h1 {
+    color: beige;
+    font-size: 70px;
+    font-family: "Syncopate";
+    border-bottom: 8px solid #4aaaa5;
+    padding-bottom: 20px;
+  }
+
+  #intro h2 {
+    color: beige;
+    font-size: 40px;
+    margin-left: 25px;
+    padding-top: 20px;
   }
 
   /* main */
@@ -115,7 +131,7 @@
     border: 5px solid #4aaaa5;
     border-radius: 5px;
   }
-  
+
   /* portfolio section */
   
   .work {
