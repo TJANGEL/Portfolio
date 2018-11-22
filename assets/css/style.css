@@ -120,23 +120,8 @@
 
   .col-md-8 p {
     color: white;
+    font-size: 24px;
   }
-
-  /* #main-container {
-    padding-top: 130px;
-    min-height: calc(100vh - 70px);
-  }
-  
-  .main-section {
-    float: left;
-    width: 100%;
-    max-width: 960px;
-    padding: 30px;
-    margin: 0 0 100px;
-    background: rgb(230, 227, 227);
-    border: 5px solid #4aaaa5;
-    border-radius: 5px;
-  } */
 
   /* portfolio section */
 
@@ -191,12 +176,12 @@
   }
 
   .demo {
-    width: 50%;
+    width: 49%;
     margin-left: 20px;
   }
 
   .code {
-    width: 50%;
+    width: 49%;
     margin-left: 400px;
   }
 
