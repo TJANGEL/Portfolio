@@ -178,11 +178,13 @@
   .demo {
     width: 49%;
     margin-left: 20px;
+    float: left;
   }
 
   .code {
     width: 49%;
     margin-left: 400px;
+    float: right;
   }
 
   .demo:hover,
