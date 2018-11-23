@@ -95,22 +95,22 @@ h3 {
   width: 100%;
 
   /* Positioning */
-  margin: 0 0 30px;
+  /* margin: 0 0 10px; */
   overflow: auto;
 
   /* Typography */
   color: #fff;
-  background: #fff;
+  background: rgba(102, 98, 98, 0.767);
 
   /* Visual */
-  border-bottom: 2px solid #ccc;
+  border-bottom: 5px solid #4aaaa5;
 }
 
 #logo {
   float: left;
 
   /* Box-model */
-  width: 250px;
+  width: 320px;
   height: 90px;
 
   /* Typography */
@@ -147,17 +147,26 @@ nav li {
   line-height: 18px;
 
   /* Visual */
-  border-left: 1px solid #efefef;
+  border-left: 1px solid #4aaaa5;
+
 }
 
 nav a {
-  /* Typography */
-  color: #999;
+  color:  #4aaaa5;
   text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+
+.current {
+    border-bottom: 3px solid #4aaaa5;
+    color: white;
+    font-weight: 500;
 }
 
 nav a:hover {
-  color: #666;
+    color: white;
+    font-weight: 500;
+    border-bottom: 3px solid #4aaaa5;
 }
 
 nav li:first-child {
