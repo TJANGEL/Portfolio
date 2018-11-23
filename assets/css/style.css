@@ -164,7 +164,6 @@
   .code {
     position: absolute;
     bottom: 20px;
-    width: 50%;
     padding: 15px;
     margin-bottom: 0;
     font-weight: 300;
@@ -177,15 +176,17 @@
   }
 
   .demo {
-    width: 49%;
+    width: 100%;
     margin-left: 20px;
     float: left;
+    
   }
 
   .code {
-    width: 49%;
-    margin-left: 400px;
-    float: right;
+    width: 100%;
+    margin-left: 20px;
+    /* margin-left: 200px; */
+    float: left;
   }
 
   .demo:hover,
