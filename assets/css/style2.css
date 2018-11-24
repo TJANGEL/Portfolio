@@ -105,21 +105,22 @@ nav li:first-child {
     border-left: 0 none;
 }
 
-/* nav a:hover {
+nav a:hover {
   color: white;
   font-weight: bolder;
   border-bottom: 3px solid #4aaaa5;
-} */
+}
 
-.current,
-nav a:active {
-  color: white;
+.current {
+  /* can't get font color to change */
+  color: #fff;
   font-weight: bolder;
   text-shadow:
-    -.4px -.4px 0 #fff,
-    .4px -.4px 0 #fff,
-    -.4px .4px 0 #fff,
-    .4px .4px 0 #fff;
+    -.45px -.45px 0 #fff,
+    .45px -.45px 0 #fff,
+    -.45px .45px 0 #fff,
+    .45px .45px 0 #fff;
+  border-bottom: 3px solid #4aaaa5;
 }
 
 /* intro */
@@ -268,13 +269,7 @@ footer {
   text-align: center;
   background: rgba(102, 98, 98, 0.767);
   border-top: 5px solid #4aaaa5;
-  padding-top: 50px;
-  height: 8%;
-}
-
-footer div.container {
-    margin-top: -30px;
-    margin-bottom: -30px;
+  padding-top: 10px;
 }
 
 /* Responsiveness */
