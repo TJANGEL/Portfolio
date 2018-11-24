@@ -184,7 +184,27 @@ h3,
   margin-right: 0;
 }
 
-/* main */
+
+/* intro */
+
+#intro {
+    padding-top: 300px;
+}
+
+#intro h1 {
+    font-size: 80px;
+    font-weight: bold;
+    border-bottom: 5px solid #4aaaa5;
+}
+
+#intro h2 {
+    font-size: 45px;
+    font-family: "Syncopate";
+    margin-left: 120px;
+
+}
+
+/* about me */
 
 main {
   padding-top: 130px;
