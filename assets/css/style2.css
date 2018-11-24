@@ -222,6 +222,13 @@ main {
   margin-right: 25px;
 }
 
+.col-md-8 h3 {
+    margin-top: 35px;
+    padding-bottom: 5px;
+    font-family: "Syncopate";
+    font-size: 18px;
+}
+
 /* portfolio page */
 
 .work {
