@@ -114,9 +114,8 @@ nav a {
 }
 
 .current {
-    border-bottom: 3px solid #4aaaa5;
     color: white;
-    font-weight: 500;
+    font-weight: bolder;
 }
 
 nav a:hover {
@@ -129,23 +128,6 @@ nav li:first-child {
   padding-left: 0;
   margin-left: 0;
   border-left: 0 none;
-}
-
-/* footer */
-
-footer,
-.push {
-  height: 100px;
-}
-
-footer {
-  clear: both;
-  font-size: 12px;
-  color: #ccc;
-  text-align: center;
-  background: rgba(102, 98, 98, 0.767);
-  border-top: 5px solid #4aaaa5;
-  padding-top: 50px;
 }
 
 /* sidebar */
@@ -286,7 +268,7 @@ main {
 .demo:hover,
 .code:hover {
   background: #4aaaa5;
-  color: darkslategrey;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -302,6 +284,23 @@ main {
 
 .main-section a {
   margin-bottom: 30px;
+}
+
+/* footer */
+
+footer,
+.push {
+  height: 100px;
+}
+
+footer {
+  clear: both;
+  font-size: 12px;
+  color: #ccc;
+  text-align: center;
+  background: rgba(102, 98, 98, 0.767);
+  border-top: 5px solid #4aaaa5;
+  padding-top: 50px;
 }
 
 /* Responsiveness */
