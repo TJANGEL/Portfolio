@@ -99,21 +99,27 @@ nav a {
   font-weight: 300;
 }
 
-nav a:hover {
-  color: white;
-  font-weight: 500;
-  border-bottom: 3px solid #4aaaa5;
-}
-
 nav li:first-child {
-  padding-left: 0;
-  margin-left: 0;
-  border-left: 0 none;
+    padding-left: 0;
+    margin-left: 0;
+    border-left: 0 none;
 }
 
-.current {
-  color: red;
+/* nav a:hover {
+  color: white;
   font-weight: bolder;
+  border-bottom: 3px solid #4aaaa5;
+} */
+
+.current,
+nav a:active {
+  color: white;
+  font-weight: bolder;
+  text-shadow:
+    -.4px -.4px 0 #fff,
+    .4px -.4px 0 #fff,
+    -.4px .4px 0 #fff,
+    .4px .4px 0 #fff;
 }
 
 /* intro */
