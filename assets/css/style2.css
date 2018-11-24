@@ -112,9 +112,8 @@ nav li:first-child {
 }
 
 .current {
-  color: white;
+  color: red;
   font-weight: bolder;
-  border-bottom: 3px solid rgba(201, 13, 13, 0.89);
 }
 
 /* intro */
