@@ -464,6 +464,15 @@ footer {
     margin-left: 0;
   }
 
+  #left {
+      margin-left: 0px;
+  }
+
+  #right {
+      margin-right: 0px;
+      float: left;
+  }
+
   .code {
     width: 50%;
     margin-left: 205px;
