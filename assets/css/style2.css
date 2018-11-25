@@ -179,13 +179,24 @@ main {
   margin-right: 25px;
 }
 
-.col-md-8 h3 {
+h3 {
   margin-top: 35px;
   padding-bottom: 5px;
   font-family: "Syncopate";
   font-size: 18px;
   border-bottom: 3px solid #eee;
 }
+
+#left {
+    float: left;
+    margin-left: 50px;
+}
+
+#right {
+    float: right;
+    margin-right: 300px;
+}
+
 
 /* portfolio page */
 
@@ -216,7 +227,7 @@ main {
   font-weight: 300;
   color: white;
   text-align: center;
-  background: black;
+  background: rgba(124, 124, 124, 0.719);
   text-decoration: none;
   border-radius: 5px;
 }
@@ -249,10 +260,27 @@ main {
 #phone {
   text-decoration: none;
   color: darkslateblue;
+  font-weight: 600;
+  font-family: "Syncopate"
 }
 
 .main-section a {
   margin-bottom: 30px;
+}
+
+#getintouch {
+    float: left;
+}
+
+
+#getintouch.col-md-9 {
+    width: 100%;
+}
+
+#contactlinks {
+    float: right;
+    padding: 20px;
+    margin-right: 40px;
 }
 
 /* footer */
