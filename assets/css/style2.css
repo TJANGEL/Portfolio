@@ -268,7 +268,8 @@ h3 {
 }
 
 #getintouch {
-    float: left;
+    /* float: left; */
+    margin-right: 50%;
 }
 
 
@@ -277,9 +278,10 @@ h3 {
 }
 
 #contactlinks {
-    float: right;
+    /* float: right; */
     padding: 20px;
-    margin-right: 40px;
+    /* margin-right: 40px; */
+    margin-left: 50%;
     margin-top: 60px;
 }
 
