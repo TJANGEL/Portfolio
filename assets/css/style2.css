@@ -108,7 +108,6 @@ nav li:first-child {
 nav a:hover {
   color: white;
   font-weight: bolder;
-  border-bottom: 3px solid #4e8fcc;
 }
 
 .current a {
