@@ -50,7 +50,7 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #4e8fcc;
 }
 
 h1 {
@@ -75,7 +75,7 @@ h3 {
   overflow: auto;
   color: #fff;
   background: rgba(102, 98, 98, 0.767);
-  border-bottom: 5px solid #4aaaa5;
+  border-bottom: 5px solid #4e8fcc;
   padding-bottom: 10px;
 }
 
@@ -90,11 +90,11 @@ nav li {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 20px;
-  border-left: 1px solid #4aaaa5;
+  border-left: 3px solid #4e8fcc;
 }
 
 nav a {
-  color: #4aaaa5;
+  color: #4e8fcc;
   text-decoration: none;
   font-weight: 300;
 }
@@ -108,13 +108,13 @@ nav li:first-child {
 nav a:hover {
   color: white;
   font-weight: bolder;
-  border-bottom: 3px solid #4aaaa5;
+  border-bottom: 3px solid #4e8fcc;
 }
 
 .current a {
   color: #fff;
   font-weight: bolder;
-  border-bottom: 3px solid #4aaaa5;
+  border-bottom: 3px solid #4e8fcc;
 }
 
 #initials {
@@ -133,7 +133,7 @@ nav a:hover {
   font-size: 80px;
   margin-left: 10px;
   font-weight: bold;
-  border-bottom: 5px solid #4aaaa5;
+  border-bottom: 5px solid #4e8fcc;
   text-shadow:
     -2px -2px 0 white,
     2px -2px 0 white,
@@ -148,10 +148,10 @@ nav a:hover {
   margin-bottom: 0px;
   color: white;
   text-shadow:
-    -1px -1px 0 #4aaaa5,
-    1px -1px 0 #4aaaa5,
-    -1px 1px 0 #4aaaa5,
-    1px 1px 0 #4aaaa5;
+    -2px -2px 0 #4e8fcc,
+    2px -2px 0 #4e8fcc,
+    -2px 2px 0 #4e8fcc,
+    2px 2px 0 #4e8fcc;
 }
 
 /* about me */
@@ -167,7 +167,7 @@ main {
   padding: 30px;
   margin: 0 0 40px;
   background: #fff;
-  border: 5px solid #4aaaa5;
+  border: 5px solid #4e8fcc;
   border-radius: 10px;
 }
 
@@ -245,7 +245,7 @@ h3 {
 
 .demo:hover,
 .code:hover {
-  background: #4aaaa5;
+  background: #4e8fcc;
   color: #fff;
   font-weight: bold;
   border: 2px solid #fff;
@@ -259,7 +259,7 @@ h3 {
 #resume,
 #phone {
   text-decoration: none;
-  color: darkslateblue;
+  color: #4e8fcc;
   font-weight: 600;
   font-family: "Syncopate";
 }
@@ -281,6 +281,7 @@ h3 {
     float: right;
     padding: 20px;
     margin-right: 40px;
+    margin-top: 60px;
 }
 
 /* footer */
@@ -296,7 +297,7 @@ footer {
   color: #ccc;
   text-align: center;
   background: rgba(102, 98, 98, 0.767);
-  border-top: 5px solid #4aaaa5;
+  border-top: 5px solid #4e8fcc;
   padding-top: 10px;
 }
 
@@ -454,7 +455,6 @@ footer {
 
   nav {
     width: 100%;
-    /* margin: 15px 0; */
     text-align: center;
   }
 
