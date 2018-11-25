@@ -111,15 +111,9 @@ nav a:hover {
   border-bottom: 3px solid #4aaaa5;
 }
 
-.current {
-  /* can't get font color to change */
+.current a {
   color: #fff;
   font-weight: bolder;
-  text-shadow:
-    -.45px -.45px 0 #fff,
-    .45px -.45px 0 #fff,
-    -.45px .45px 0 #fff,
-    .45px .45px 0 #fff;
   border-bottom: 3px solid #4aaaa5;
 }
 
