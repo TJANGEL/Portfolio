@@ -117,6 +117,12 @@ nav a:hover {
   border-bottom: 3px solid #4aaaa5;
 }
 
+#initials {
+    float: right;
+    padding-top: 10px;
+    font-weight: bold
+}
+
 /* intro */
 
 #intro {
