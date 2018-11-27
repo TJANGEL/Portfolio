@@ -504,4 +504,16 @@ footer {
     margin-left: 205px;
     float: right;
   }
+
+  #getintouch {
+    margin-right: 0%
+}
+
+  #contactlinks {
+    padding: 20px;
+    margin-left: 0%;
+    justify-content: center;
+    margin-top: 0px;
+}
+
 }
