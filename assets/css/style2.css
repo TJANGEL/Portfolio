@@ -118,6 +118,7 @@ nav a:hover {
 
 #initials {
     float: right;
+    margin-right: -45px;
     padding-top: 10px;
     font-weight: bold
 }
