@@ -324,7 +324,7 @@ footer {
 
 @media only screen and (max-width: 980px) {
     nav {
-        margin-left: 0px;
+        margin-left: -38px;
     }
     
     .main-section {
@@ -335,6 +335,10 @@ footer {
       overflow: auto;
     }
   
+    #initials {
+      margin-right: 0px;
+    }
+
     .work {
       width: 47%;
       margin-bottom: 10px;
@@ -376,6 +380,10 @@ footer {
 
   main {
     overflow: auto;
+  }
+
+  nav {
+    margin-left: -30px;
   }
 
   #initials {
@@ -434,7 +442,7 @@ footer {
     nav {
       width: 100%;
       margin: 15px 0;
-      margin-left: 8px;
+      margin-left: -10px;
       text-align: center;
     }
   
