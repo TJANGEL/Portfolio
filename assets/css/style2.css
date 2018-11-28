@@ -122,6 +122,13 @@ nav a:hover {
     font-weight: bold
 }
 
+/* #initials:hover,
+#initials:active {
+    content: url("assets/images/initials-inverse.png");
+    height: 50px;
+    width: 40px;
+} */
+
 /* intro */
 
 #intro {
@@ -287,9 +294,9 @@ h3 {
   position: relative;
   height: 300px;
   background-image: linear-gradient(#ff9d2f, #ff6126);
-}
+} */
 
-svg {
+/* svg {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -518,5 +525,211 @@ footer {
     justify-content: center;
     margin-top: 0px;
 }
-
 }
+
+
+/* acoridion styling */
+/*==================================*/
+/* social media icon link */
+/* @font-face {
+  font-family: 'Genericons';
+  src: url('./assets/genericons/genericons-regular-webfont.woff')format('woff'),
+       url('./assets/genericons/genericons-regular-webfont.eot')format('truetype')
+}
+
+.container2 {
+  margin: 50px auto;
+  margin-top: -810px;
+  width: 90%;
+}
+
+.container2 h1 {
+  color: #fff;
+  font-size: 38px;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  text-shadow:
+  -2px -2px 0 #4e8fcc,
+  2px -2px 0 #4e8fcc,
+  -2px 2px 0 #4e8fcc,
+  2px 2px 0 #4e8fcc;
+}
+
+.container2 h2 {
+  font-size: 24px;
+  font-family: "Syncopate";
+  color: #fff;
+}
+
+.container2 h4 {
+  color: #fff;
+} */
+
+/* accordion styling */
+/* .accordion {
+  background: #333;
+  width: 100%;
+  min-width: 800px;
+  display: block;
+  list-style-type: none;
+  overflow: hidden;
+  height: 400px;
+  font-size: 0;
+}
+
+.tab {
+  display: inline-block;
+  background: #444;
+  border-right: 1px solid #333;
+  width: 80px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+
+.tab:hover {
+  width: 450px;
+}
+
+.tab:hover .social a:before {
+  margin-left: -100px;
+}
+
+.tab:hover .social a:after {
+  margin-left: -5px;
+}
+
+.tab .content {
+  background: #fff;
+  width: 360px;
+  height: 400px;
+  margin-left: 80px;
+  position: relative;
+  padding: 50px 0 0 15px;
+}
+
+.tab .content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.tab .content p {
+  font-size: 1.5rem;
+  line-height: 1.4rem;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+.social a:before,
+.social a:after {
+  width: 80px;
+  height: 400px;
+  position: absolute;
+  text-indent: 0;
+  padding-top: 90px;
+  padding-left: 25px;
+  display: block;
+  font: normal 30px Genericons;
+  color: #fff;
+  transition: all 0.4s ease-in-out 0.1s
+}
+
+.social a:after {
+  font-size: 48px;
+  padding-left: 20px;
+  padding-top: 80px;
+  margin-left: 85px;
+} */
+
+/* Icons */
+
+/* phone */
+/* .phone a:before,
+.phone a:after {
+  content: '\f213';
+}
+
+.phone a:after {
+  background: #ff0000;
+} */
+
+/* email */
+/* .email a:before,
+.email a:after {
+  content: '\f202';
+}
+
+.email a:after {
+  background: #6dc5dd;
+} */
+
+/* github */
+/* .github a:before,
+.github a:after {
+  content: '\f200';
+}
+
+.github a:after {
+  background: #6e5494;
+} */
+
+/* LinkedIn */
+/* .linkedIn a:before,
+.linkedIn a:after {
+  content: '\f208';
+}
+
+.linkedIn a:after {
+  background: #00a9cd;
+} */
+
+/* linkedin */
+/* .resume a:before,
+.resume a:after {
+  content: '\f215';
+}
+
+.resume a:after {
+  background: #6dc993;
+} */
+
+/* responsiveness */
+
+/* @media(max-width: 950px) {
+  .container2 {
+      width: 70%;
+  }
+
+  .tab {
+      display: block;
+      width: 100%;
+      border-bottom: 3px solid #333;
+  }
+
+  .accordion {
+      display: block;
+      min-width: 450px;
+      height: auto;
+  }
+
+  .content {
+      width: 85%;
+  }
+
+  .tab:hover {
+      width: 100%;
+  }
+}
+
+@media(max-width: 640px) {
+  .container2 {
+      width: 95%;
+  }
+
+  .accordion {
+      width: 100%;
+      min-width: 350px;
+  }
+} */
