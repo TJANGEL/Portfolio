@@ -100,9 +100,9 @@ nav a {
 }
 
 nav li:first-child {
-    padding-left: 0;
-    margin-left: 0;
-    border-left: 0 none;
+  padding-left: 0;
+  margin-left: 0;
+  border-left: 0 none;
 }
 
 nav a:hover {
@@ -117,10 +117,10 @@ nav a:hover {
 }
 
 #initials {
-    float: right;
-    margin-right: -45px;
-    padding-top: 10px;
-    font-weight: bold
+  float: right;
+  margin-right: -45px;
+  padding-top: 10px;
+  font-weight: bold;
 }
 
 /* #initials:hover,
@@ -141,10 +141,7 @@ nav a:hover {
   margin-left: 10px;
   font-weight: bold;
   border-bottom: 5px solid #4e8fcc;
-  text-shadow:
-    -2px -2px 0 white,
-    2px -2px 0 white,
-    -2px 2px 0 white,
+  text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white,
     2px 2px 0 white;
 }
 
@@ -154,10 +151,7 @@ nav a:hover {
   margin-left: 120px;
   margin-bottom: 0px;
   color: white;
-  text-shadow:
-    -2px -2px 0 #4e8fcc,
-    2px -2px 0 #4e8fcc,
-    -2px 2px 0 #4e8fcc,
+  text-shadow: -2px -2px 0 #4e8fcc, 2px -2px 0 #4e8fcc, -2px 2px 0 #4e8fcc,
     2px 2px 0 #4e8fcc;
 }
 
@@ -195,15 +189,14 @@ h3 {
 }
 
 #left {
-    float: left;
-    margin-left: 50px;
+  float: left;
+  margin-left: 50px;
 }
 
 #right {
-    float: right;
-    margin-right: 300px;
+  float: right;
+  margin-right: 300px;
 }
-
 
 /* portfolio page */
 
@@ -236,7 +229,7 @@ h3 {
   text-align: center;
   background: rgba(117, 114, 114, 0.719);
   text-decoration: none;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 .demo {
@@ -276,18 +269,18 @@ h3 {
 }
 
 #getintouch {
-    margin-right: 50%;
+  margin-right: 50%;
 }
 
 #getintouch.col-md-9 {
-    width: 100%;
+  width: 100%;
 }
 
 #contactlinks {
-    padding: 20px;
-    margin-left: 50%;
-    justify-content: center;
-    margin-top: 0px;
+  padding: 20px;
+  margin-left: 50%;
+  justify-content: center;
+  margin-top: 0px;
 }
 
 /* .main-section {
@@ -323,57 +316,56 @@ footer {
 /* Responsiveness */
 
 @media only screen and (max-width: 980px) {
-    nav {
-        margin-left: -38px;
-    }
-    
-    .main-section {
-      max-width: 100%;
-    }
-  
-    main {
-      overflow: auto;
-    }
-  
-    #initials {
-      margin-right: 0px;
-    }
-
-    .work {
-      width: 47%;
-      margin-bottom: 10px;
-    }
-  
-    .work:nth-child(even) {
-      margin-right: 0;
-    }
-  
-    .work:nth-child(odd) {
-      float: right;
-    }
-  
-    .auth-image {
-      width: 50%;
-    }
-
-    .code {
-        width: 50%;
-        margin-left: 209px;
-        float: right;
-    }
+  nav {
+    margin-left: -38px;
   }
 
+  .main-section {
+    max-width: 100%;
+  }
+
+  main {
+    overflow: auto;
+  }
+
+  #initials {
+    margin-right: 0px;
+  }
+
+  .work {
+    width: 47%;
+    margin-bottom: 10px;
+  }
+
+  .work:nth-child(even) {
+    margin-right: 0;
+  }
+
+  .work:nth-child(odd) {
+    float: right;
+  }
+
+  .auth-image {
+    width: 50%;
+  }
+
+  .code {
+    width: 50%;
+    margin-left: 209px;
+    float: right;
+  }
+}
 
 @media only screen and (max-width: 768px) {
   #intro h1 {
-      font-size: 50px;
+    font-size: 50px;
   }
 
   #intro h2 {
-      font-size: 36px;
-      margin-left: 10px;
+    font-size: 36px;
+    margin-left: 10px;
   }
-  
+
   .main-section {
     max-width: 100%;
   }
@@ -415,50 +407,49 @@ footer {
 }
 
 @media only screen and (max-width: 640px) {
-    #masthead {
-      position: static;
-      margin-bottom: 20px;
-    }
-  
-    header .container {
-      padding: 0;
-    }
-
-    #initials {
-        margin-right: 298px;
-    
-    }
-  
-    main.container {
-      padding-top: 0;
-    }
-  
-    #logo,
-    .work,
-    .auth-image {
-      width: 100%;
-    }
-  
-    nav {
-      width: 100%;
-      margin: 15px 0;
-      margin-left: -10px;
-      text-align: center;
-    }
-  
-    nav a {
-      width: 30%;
-      font-size: 27px;
-      padding-left: 0;
-      margin-left: 0;
-    }
-  
-    .code {
-      width: 50%;
-      margin-left: 285px;
-      float: right;
-    }
+  #masthead {
+    position: static;
+    margin-bottom: 20px;
   }
+
+  header .container {
+    padding: 0;
+  }
+
+  #initials {
+    margin-right: 298px;
+  }
+
+  main.container {
+    padding-top: 0;
+  }
+
+  #logo,
+  .work,
+  .auth-image {
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+    margin: 15px 0;
+    margin-left: -10px;
+    text-align: center;
+  }
+
+  nav a {
+    width: 30%;
+    font-size: 27px;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .code {
+    width: 50%;
+    margin-left: 285px;
+    float: right;
+  }
+}
 
 @media only screen and (max-width: 480px) {
   #intro h1 {
@@ -466,13 +457,13 @@ footer {
     text-align: center;
     margin-left: 0px;
     margin-top: -280px;
-    }
-  
+  }
+
   #intro h2 {
     text-align: center;
     font-size: 45px;
-    }
-  
+  }
+
   #masthead {
     position: static;
     margin-bottom: 20px;
@@ -488,7 +479,6 @@ footer {
 
   #initials {
     margin-right: 215px;
-
   }
 
   .work,
@@ -509,12 +499,12 @@ footer {
   }
 
   #left {
-      margin-left: 0px;
+    margin-left: 0px;
   }
 
   #right {
-      margin-right: 0px;
-      float: left;
+    margin-right: 0px;
+    float: left;
   }
 
   .code {
@@ -524,17 +514,16 @@ footer {
   }
 
   #getintouch {
-    margin-right: 0%
-}
+    margin-right: 0%;
+  }
 
   #contactlinks {
     padding: 20px;
     margin-left: 0%;
     justify-content: center;
     margin-top: 0px;
+  }
 }
-}
-
 
 /* acoridion styling */
 /*==================================*/
